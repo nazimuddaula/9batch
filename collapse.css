@@ -1,0 +1,40 @@
+.trigger{
+	cursor:pointer;
+	width:50%;
+	color: #11D000;
+	border:none;
+}		
+.trigger:hover{
+	cursor:pointer;
+	color: #696969;
+	border:none;
+}		
+.expanded{
+	width:90%;
+	cursor:pointer;
+	height:24px;
+	color: #11D000;
+	border:none;
+}
+.expanded:hover{
+	width:90%;
+	cursor:pointer;
+	height:24px;
+	color: #696969;
+	border:none;
+}
+.show{
+	 position:static;
+	 display: table;
+	 color: #696969;
+	 border:none;
+}
+.hide{
+	position:absolute;
+	left:-999em;
+	height:1px;
+	width:100px;
+	overflow:hidden;
+	color: #696969;
+	border: none;
+}

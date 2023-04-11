@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+#wrap{
+	top:0px;
+	left:0px;
+	width:760px;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	background-color:#FFFFFF;
+	border:none;
+}
+
+
+#top {
+	top:0px;
+	width:760px;
+}
+
+#top-left {
+	float:left;
+	width:160px;
+	padding-right:30px;
+}
+
+#top-right {
+	float:right;
+	width:570px;
+	padding-top:95px;
+}
+
+#footer {
+	clear:both;
+	width:760px;
+	margin-top:20px;
+	padding-top:15px;
+	padding-bottom:20px;
+	background-image:url(images/footer-bg.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #696969;
+	text-decoration: none;
+}
+
+#footer-left {
+	float:left;
+	width:150px;
+}
+
+#footer-right {
+	float:right;
+	width:570px;
+	padding-left:40px;
+}
+
+
+.table-gallery {
+	height:126px;
+	width:126px;
+	display: table;
+}
+
+.body-line {
+	margin-top:5px;
+	padding-bottom:5px;
+	background-image:url(images/body-line.gif);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+}
+
+.body-line a {
+	color:#696969;
+	text-decoration:none;
+}
+
+.body-line a:hover {
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+.body-line-01 {
+	margin-top:5px;
+	padding-bottom:5px;
+	background-image:url(images/body-line.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+}
+
+/**************FONT**************/
+
+.text_page_title {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 58px;
+	color: #12CF00;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #11D000;
+	text-decoration: none;
+}
+
+.text-body-grey {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #696969;
+	text-decoration: none;
+}
+
+.text-body-green {
+	color: #11D000;
+	text-decoration: underline;
+}
+
+.text-body-green-none {
+	color: #11D000;
+	text-decoration: none;
+}
+
+.text-small {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #696969;
+	text-decoration: none;
+}
